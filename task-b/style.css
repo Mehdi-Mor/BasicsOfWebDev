@@ -1,0 +1,52 @@
+/*
+Author: Mehdi Tahari
+Date: 2025-09-22
+*/
+body{
+    background-color:beige;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#333;
+}
+
+h1{
+    color:darkslateblue;
+    font-size: 50px;
+}
+
+h2{
+    color:  darkslateblue;
+    font-size: 50px;
+}
+p{
+    line-height: 1.6; /* That is cool you can control the spacing*/
+    font-size: 16px;
+    color:darkslategray;
+}
+ul{
+    list-style-type:circle;
+    background: slategray;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 500px;
+    line-height: 1.5;
+    padding:5px;
+    list-style-position: inside;
+
+}
+ol li{
+    list-style-type:square;
+    background-color: slategray;
+    margin:5px;
+    line-height: 1;
+    padding: 20px;
+    margin-right:500px;
+}
+
+a{
+    color: darkmagenta;
+    font-weight: bold;
+}
+
+a:hover{
+    color: darkblue;
+}
