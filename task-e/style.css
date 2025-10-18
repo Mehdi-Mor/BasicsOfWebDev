@@ -2,3 +2,80 @@
 Author: Mehdi Tahari
 Date: 2025-xx-xx
 */
+
+/* Asked help from ai to fix the units, in order to use "em" and "%" because it was a bit challenging to chnage from "px"*/
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: #f5f8fb;
+  margin: 0;
+  padding: 0;
+}
+
+.site-header {
+  background-color: #24386e;
+  color: #fff;
+  text-align: center;
+  padding: 2em 0;
+}
+
+.site-header h1 {
+  margin: 0;
+  font-size: 1.8em;
+  font-weight: 700;
+}
+
+.content {
+  max-width: 90%;
+  margin: 2.5em auto;
+  padding: 0 1.25em;
+}
+
+.student-info {
+  background-color: #fff;
+  padding: 1.25em 1.5em;
+  border-radius: 0.5em;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1.5em;
+  border: 1px solid #e2e8f0;
+}
+
+.student-info p {
+  margin: 0.5em 0;
+  font-size: 1em;
+}
+
+.table-wrap {
+  background-color: #fff;
+  border-radius: 0.5em;
+  padding: 1em 1.25em;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e2e8f0;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95em;
+}
+
+.table th,.table td {
+  text-align: left;
+  padding: 0.75em 1em;
+}
+
+.table thead {
+  background-color: #24386e;
+  color: #fff;
+}
+
+.table th {
+  font-weight: 600;
+}
+
+.table tbody tr:nth-child(even) {
+  background-color: #f0f4ff;
+}
